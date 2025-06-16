@@ -1,0 +1,15 @@
+name: Weekly Ops Review Reminder
+
+on:
+  schedule:
+    - cron: "0 8 * * MON" # Every Monday at 08:00 UTC
+
+jobs:
+  reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: List Stale Interviews
+        run: |
+          echo "## Stale Interviews (no update in 7+ days)"
+          find interviews/ -type f -name '*.md' -mtime +7

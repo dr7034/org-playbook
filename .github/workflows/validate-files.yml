@@ -1,0 +1,15 @@
+name: Validate Markdown Files
+
+on:
+  push:
+    paths:
+      - "**.md"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check empty files
+        run: |
+          find . -name '*.md' -exec bash -c '[[ -s "{}" ]] || echo "::error file={}"' \;
