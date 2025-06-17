@@ -1,6 +1,6 @@
 # Growth Wedge Strategy
 
-This file defines our narrowest point of market entry—the wedge we use to unlock adoption, engagement, and expansion. It must be simple, urgent, and immediately valuable to a very specific persona.
+This file defines our narrowest point of market entry, the wedge we use to unlock adoption, engagement, and expansion. It must be simple, urgent, and immediately valuable to a very specific persona.
 
 ---
 
