@@ -11,7 +11,7 @@
 
 ---
 
-## ⚔️ Section 1: Role and Stakes
+## Section 1: Role and Stakes
 
 | Question                                 | Answer | Score (1–5) | Weight | Weighted Score |
 | ---------------------------------------- | ------ | ----------- | ------ | -------------- |
@@ -21,7 +21,7 @@
 
 ---
 
-## 💣 Section 2: Workarounds and Pain
+## Section 2: Workarounds and Pain
 
 | Question                                             | Answer | Score (1–5) | Weight | Weighted Score |
 | ---------------------------------------------------- | ------ | ----------- | ------ | -------------- |
@@ -31,7 +31,7 @@
 
 ---
 
-## 🔍 Section 3: Systems and Limits
+## Section 3: Systems and Limits
 
 | Question                                        | Answer | Score (1–5) | Weight | Weighted Score |
 | ----------------------------------------------- | ------ | ----------- | ------ | -------------- |
@@ -41,7 +41,7 @@
 
 ---
 
-## 🧠 Section 4: Self-Deception and Truth
+## Section 4: Self-Deception and Truth
 
 | Question                                                    | Answer | Score (1–5) | Weight | Weighted Score |
 | ----------------------------------------------------------- | ------ | ----------- | ------ | -------------- |
@@ -51,7 +51,7 @@
 
 ---
 
-## 🚀 Final: Future Pull
+## Final: Future Pull
 
 | Question                                             | Answer | Score (1–5) | Weight | Weighted Score |
 | ---------------------------------------------------- | ------ | ----------- | ------ | -------------- |
@@ -59,7 +59,7 @@
 
 ---
 
-## 🧮 Interview Type Adjustment
+## Interview Type Adjustment
 
 | Condition           | Weighting | Explanation                                              |
 | ------------------- | --------- | -------------------------------------------------------- |
@@ -68,7 +68,7 @@
 
 ---
 
-## 🔢 Calculation
+## Calculation
 
 - Total Weighted Score = Sum of (Score × Weight) + Interview Type Adjustment
 - Max possible raw weighted score (no penalty) = 5 × Sum of weights = 5 × 38 = 190
@@ -79,7 +79,7 @@
 
 ---
 
-## 🎯 Summary
+## Summary
 
 - **Overall Interview Score:** _[Calculated total]_
 - **Key Quotes:**
@@ -91,7 +91,7 @@
 
 ## Usage Notes
 
-- Score each question 1–5 reflecting strength of signal (1 = no signal, 5 = strong).
+- Score each question 1–5 reflecting signal strength (1 = no signal, 5 = strong).
 - Multiply by weight for weighted contribution.
-- Apply -5 penalty if interviewee was paid to discount bias but do not disqualify automatically.
-- Use this for gating personas and loops as a required checkpoint.
+- Apply -5 penalty if interviewee was paid to discount bias, but do not disqualify automatically.
+- Use this to gate personas and loops as a required checkpoint.
